@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { Database, Download, ExternalLink, Code, Filter, Search, Star, Tag } from 'lucide-react';
 
 const Resources = () => {
   const [filter, setFilter] = useState('all');
   const [searchTerm, setSearchTerm] = useState('');
+  const navigate = useNavigate();
 
   const categories = [
     { id: 'all', label: 'All Resources', count: 1 },
@@ -263,8 +265,12 @@ const Resources = () => {
             <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
               Have datasets or tools that could benefit the urban research community? We'd love to feature your contributions.
             </p>
-            <motion.button className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100 transition-colors duration-200" whileHover={{ scale: 1.05 }}>
-              Submit Your Resource
+            <motion.button 
+              className="px-8 py-4 bg-white text-blue-600 font-semibold rounded-xl hover:bg-gray-100 transition-colors duration-200" 
+              whileHover={{ scale: 1.05 }}
+              onClick={() => navigate('/contact')}
+            >
+              Contact Us
             </motion.button>
           </motion.div>
         </motion.div>
