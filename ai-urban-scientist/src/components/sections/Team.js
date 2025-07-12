@@ -21,7 +21,7 @@ const Team = () => {
       institution: "MIT",
       location: "Cambridge, MA",
       expertise: ["Transportation", "Urban Analytics", "Behavioral Science"],
-      bio: "Leading researcher in AI applications for urban sustainability. 15+ years experience in developing intelligent systems for smart cities.",
+      bio: "Prof. Jinhua Zhao is an MIT urban planning professor focusing on mobility systems, behavioral science, and AI. He directs the MIT Mobility Initiative and JTL Urban Mobility Lab, advancing sustainable transportation globally.",
       social: {
         email: "#",
         linkedin: "#",
