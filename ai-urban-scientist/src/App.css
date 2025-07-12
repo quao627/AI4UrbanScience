@@ -1,0 +1,7 @@
+/* This file is now minimal since most styles are handled by Tailwind and the global CSS */
+
+.App {
+  text-align: center;
+}
+
+/* Any custom component-specific styles can be added here */
