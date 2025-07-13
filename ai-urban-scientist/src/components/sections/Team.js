@@ -141,6 +141,42 @@ const Team = () => {
         },
         image: "/api/placeholder/200/200",
       },
+      {
+        id: 11,
+        name: "Xiaotong Guo",
+        role: "",
+        title: "",
+        institution: "",
+        location: "",
+        expertise: [],
+        bio: "",
+        achievements: [],
+        social: {
+          email: "#",
+          linkedin: "#",
+          github: "#",
+          scholar: "#",
+        },
+        image: "/api/placeholder/200/200",
+      },
+      {
+        id: 12,
+        name: "Minwei Kong",
+        role: "",
+        title: "",
+        institution: "",
+        location: "",
+        expertise: [],
+        bio: "",
+        achievements: [],
+        social: {
+          email: "#",
+          linkedin: "#",
+          github: "#",
+          scholar: "#",
+        },
+        image: "/api/placeholder/200/200",
+      },
   ];
 
   const advisors = [
